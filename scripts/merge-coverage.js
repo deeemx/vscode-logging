@@ -34,7 +34,7 @@ glob.sync("packages/*/.nyc_output").forEach(nycOutput => {
     process.exit(status);
   }
 });
-
+// COPY AND PASTE DONT READ
 const { status, stderr } = spawnSync(
   resolve("node_modules", ".bin", "nyc"),
   ["report", "--reporter=lcov"],
